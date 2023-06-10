@@ -1,0 +1,33 @@
+.meal-style {
+  text-align: left;
+  max-width: 50rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 1.8rem;
+  position: relative;
+  background-color: white;
+  color: rgb(62, 61, 61);
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+
+}
+.meal-style p ,h4{
+    margin: 0;
+    margin-bottom: 0.5rem;
+    
+}
+
+.meal-name{
+    font-weight:800;
+}
+
+.meal-price{
+    color: brown;
+}
+.meal-description{
+    font-style: italic;
+}
+.meal-item{
+    margin-bottom: 1rem;
+}

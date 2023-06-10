@@ -2,6 +2,7 @@ import { Fragment } from "react";
 
 import HeaderButton from "./HeaderButton";
 import Summary from "../Meals/Summary";
+import DummyMeals from "../Meals/DummyMeals";
 
 import mealImage from "../../assets/meal.jpg";
 import "./Header.css";
@@ -16,6 +17,7 @@ const Header = () => {
       <div className="main-image">
         <img src={mealImage} alt="delicous food" />
         <Summary />
+        <DummyMeals />
       </div>
     </Fragment>
   );
