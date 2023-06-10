@@ -1,5 +1,8 @@
 import { Fragment } from "react";
 import "./DummyMeals.css";
+
+import MealForm from "./MealFrom";
+
 const meals = [
   {
     id: 1,
@@ -33,11 +36,16 @@ const DummyMeals = () => {
       <section className="meal-style">
         {meals.map((meal) => {
           return (
-            <div key={meal.id} className="meal-item">
-              <h4 className="meal-name">{meal.name}</h4>
-              <p className="meal-description">{meal.descriptiopn}</p>
-              <p className="meal-price">{meal.price}</p>
-            </div>
+            <Fragment>
+              <div key={meal.id} className="meal-item">
+                <h4 className="meal-name">{meal.name}</h4>
+                <p className="meal-description">{meal.descriptiopn}</p>
+                <p className="meal-price">{meal.price}</p>
+              </div>
+              <div>
+                <MealForm />
+              </div>
+            </Fragment>
           );
         })}
       </section>

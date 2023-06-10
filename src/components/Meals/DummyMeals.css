@@ -1,5 +1,6 @@
 .meal-style {
   text-align: left;
+  
   max-width: 50rem;
   width: 90%;
   margin: auto;
@@ -10,24 +11,34 @@
   border-radius: 14px;
   padding: 1.5rem;
   box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
-
-}
-.meal-style p ,h4{
-    margin: 0;
-    margin-bottom: 0.5rem;
-    
 }
 
-.meal-name{
-    font-weight:800;
+.meal-item {
+  margin-bottom: 1rem;
+  border-top: 1px solid #544d4d;
+  align-items: center;
 }
 
-.meal-price{
-    color: brown;
+/* .meal-item {
+  display: flex;
+  align-items: center;
+} */
+
+.meal-style p,
+h4 {
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
-.meal-description{
-    font-style: italic;
+
+.meal-name {
+  font-weight: 800;
 }
-.meal-item{
-    margin-bottom: 1rem;
+
+.meal-price {
+  font-weight: 800;
+  color: brown;
+}
+
+.meal-description {
+  font-style: italic;
 }
