@@ -4,10 +4,13 @@ import ReactDOM from "react-dom";
 
 import Card from "../UI/Card";
 
-const Cart = () => {
+const Cart = (props) => {
   return (
     <Fragment>
-      {ReactDOM.createPortal(<Card />, document.getElementById("overlay-root"))}
+      {ReactDOM.createPortal(
+        <Card onClose={props.onClose} />,
+        document.getElementById("overlay-root")
+      )}
     </Fragment>
   );
 };

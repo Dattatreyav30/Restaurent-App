@@ -6,7 +6,6 @@ import DummyMeals from "../Meals/DummyMeals";
 
 import mealImage from "../../assets/meal.avif";
 import "./Header.css";
-import Cart from "../Cart/Cart";
 
 const Header = () => {
   return (
@@ -19,7 +18,6 @@ const Header = () => {
         <img src={mealImage} alt="delicous food" />
         <Summary />
         <DummyMeals />
-        <Cart/>
       </div>
     </Fragment>
   );
