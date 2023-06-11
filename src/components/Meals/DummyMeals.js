@@ -7,7 +7,7 @@ const meals = [
   {
     id: 1,
     name: "chicken biriyani",
-    descriptiopn: "quality at its best",
+    descriptiopn: "boneless",
     price: "₹200",
   },
   {
@@ -24,7 +24,7 @@ const meals = [
   },
   {
     id: 4,
-    name: "Non veg pizza",
+    name: "pizza",
     descriptiopn: "with extra cheese",
     price: "₹300",
   },
@@ -36,8 +36,8 @@ const DummyMeals = () => {
       <section className="meal-style">
         {meals.map((meal) => {
           return (
-            <Fragment>
-              <div key={meal.id} className="meal-item">
+            <Fragment key={meal.id}>
+              <div className="meal-item">
                 <h4 className="meal-name">{meal.name}</h4>
                 <p className="meal-description">{meal.descriptiopn}</p>
                 <p className="meal-price">{meal.price}</p>
@@ -49,6 +49,7 @@ const DummyMeals = () => {
           );
         })}
       </section>
+
     </Fragment>
   );
 };

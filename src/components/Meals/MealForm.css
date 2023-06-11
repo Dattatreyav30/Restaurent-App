@@ -1,6 +1,7 @@
 .meal-form {
   text-align: end;
-  justify-content: center;
+  align-items: center;
+  margin-top: -4rem;
 }
 
 .meal-form label {
@@ -10,7 +11,7 @@
 
 .meal-form input {
   width: 3rem;
-  border-radius: 5px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   font: inherit;
   padding-left: 0.5rem;

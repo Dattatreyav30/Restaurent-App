@@ -1,6 +1,6 @@
 .meal-style {
   text-align: left;
-  
+
   max-width: 50rem;
   width: 90%;
   margin: auto;
@@ -14,7 +14,7 @@
 }
 
 .meal-item {
-  margin-bottom: 1rem;
+  margin-top: 2rem;
   border-top: 1px solid #544d4d;
   align-items: center;
 }
@@ -31,14 +31,20 @@ h4 {
 }
 
 .meal-name {
+  margin-top: 1rem;
   font-weight: 800;
+  letter-spacing: 1px;
+  
 }
 
 .meal-price {
   font-weight: 800;
+  letter-spacing: 1px;
   color: brown;
+  
 }
 
 .meal-description {
   font-style: italic;
+  letter-spacing: 1px;
 }
