@@ -11,13 +11,13 @@ const meals = [
     price: "₹200",
   },
   {
-    id: 3,
+    id: 2,
     name: "chapati and rice",
     descriptiopn: "with vegtable stew and sambar",
     price: "₹150",
   },
   {
-    id: 2,
+    id: 3,
     name: "chicken kabab",
     descriptiopn: "made with finest ingredients",
     price: "₹100",
@@ -43,13 +43,12 @@ const DummyMeals = () => {
                 <p className="meal-price">{meal.price}</p>
               </div>
               <div>
-                <MealForm />
+                <MealForm meal = {meal} />
               </div>
             </Fragment>
           );
         })}
       </section>
-
     </Fragment>
   );
 };

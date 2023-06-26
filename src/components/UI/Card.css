@@ -3,19 +3,23 @@
   margin: 0;
 }
 .totalmeal-overlay {
-  position: fixed;
+  position :relative;
   top: 50%;
-  left: 30%;
-  width: 500px;
+  left: 27%;
+  width: 600px;
   padding: 2rem;
   border-radius: 0.5rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
+  transition: top 0.6s ease-in
 }
 
+
 #price {
+  font-weight: 600;
   text-align: end;
-  margin-top: -2.5rem;
+  margin-top: -1.95rem;
+  margin-bottom: 2rem;
 }
 .totalmeal-overlay button {
   padding: 0.5rem;
@@ -32,7 +36,15 @@
   flex: end;
 }
 .totalmeal-overlay p,
-h3 {
+h4 {
   margin-bottom: 1rem;
   letter-spacing: 2px;
+}
+
+#description{
+  font-style: italic;
+}
+
+#name{
+  font-weight: 900;
 }
